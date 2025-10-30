@@ -17,7 +17,7 @@
         }
         
         body {
-            font-family: 'Times New Roman', 'Georgia', serif;
+            font-family: 'Calibri', 'Georgia', serif;
             background: white;
             margin: 0;
             padding: 0;
@@ -26,12 +26,10 @@
         }
         
         .page {
-            width: 210mm;
-            min-height: 297mm;
-            padding: 15mm;
+            width: 595pt; /* A4 width in points */
             margin: 0 auto;
+            padding: 36pt;
             background: white;
-            box-shadow: 0 0 10px rgba(0,0,0,0.1);
             page-break-after: always;
         }
         
@@ -39,27 +37,32 @@
             page-break-after: auto;
         }
         
+        .page:last-child {
+            page-break-after: auto;
+        }
+        
+        /* Two-column layout */
         .page-content {
-            display: table;
             width: 100%;
+            display: table;
             table-layout: fixed;
         }
         
         .column {
             display: table-cell;
             width: 50%;
-            padding: 8pt;
+            padding: 12pt;
             vertical-align: top;
-            border: 1px solid #ddd;
-        }
-        
-        .column-left {
-            border-right: 2pt solid #333;
-            padding-right: 12pt;
+            border: 1pt solid #cccccc;
         }
         
         .column-right {
-            padding-left: 12pt;
+            border-left: 2pt solid #333333;
+            padding-left: 18pt;
+        }
+        
+        .column-left {
+            padding-right: 18pt;
         }
         
         h1 {
