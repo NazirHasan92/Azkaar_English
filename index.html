@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Azkaar - Morning and Evening</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        @page {
+            size: A4;
+            margin: 15mm;
+        }
+        
+        body {
+            font-family: 'Times New Roman', 'Georgia', serif;
+            background: white;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            font-size: 11pt;
+        }
+        
+        .page {
+            width: 210mm;
+            min-height: 297mm;
+            padding: 15mm;
+            margin: 0 auto;
+            background: white;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            page-break-after: always;
+        }
+        
+        .page:last-child {
+            page-break-after: auto;
+        }
+        
+        .page-content {
+            display: table;
+            width: 100%;
+            table-layout: fixed;
+        }
+        
+        .column {
+            display: table-cell;
+            width: 50%;
+            padding: 8pt;
+            vertical-align: top;
+            border: 1px solid #ddd;
+        }
+        
+        .column-left {
+            border-right: 2pt solid #333;
+            padding-right: 12pt;
+        }
+        
+        .column-right {
+            padding-left: 12pt;
+        }
+        
+        h1 {
+            font-size: 18pt;
+            font-weight: bold;
+            color: #1a5f3f;
+            text-align: center;
+            margin: 0 0 15pt 0;
+            padding-bottom: 10pt;
+            border-bottom: 2pt solid #1a5f3f;
+        }
+        
+        h2 {
+            font-size: 12pt;
+            font-weight: bold;
+            color: #2c7a4f;
+            margin: 10pt 0 6pt 0;
+        }
+        
+        h3 {
+            font-size: 11pt;
+            font-weight: bold;
+            color: #388e3c;
+            margin: 8pt 0 4pt 0;
+        }
+        
+        .arabic-text {
+            font-style: italic;
+            font-size: 11pt;
+            line-height: 1.8;
+            color: #1a237e;
+            padding: 6pt;
+            margin: 6pt 0;
+            background-color: #f8f9ff;
+            border-left: 3pt solid #1a237e;
+        }
+        
+        .urdu-text {
+            font-size: 10pt;
+            line-height: 1.5;
+            color: #333;
+            margin: 4pt 0;
+        }
+        
+        .benefit-text {
+            font-size: 9pt;
+            font-style: italic;
+            color: #d32f2f;
+            background-color: #ffebee;
+            padding: 4pt;
+            margin: 4pt 0;
+            border-left: 2pt solid #d32f2f;
+        }
+        
+        .number-circle {
+            display: inline-block;
+            width: 16pt;
+            height: 16pt;
+            background-color: #1a5f3f;
+            color: white;
+            text-align: center;
+            line-height: 16pt;
+            border-radius: 50%;
+            margin-right: 4pt;
+            font-weight: bold;
+            font-size: 9pt;
+        }
+        
+        .section-divider {
+            border: none;
+            border-top: 1pt solid #ccc;
+            margin: 10pt 0;
+        }
+        
+        strong {
+            font-weight: bold;
+        }
+        
+        .underline {
+            text-decoration: underline;
+        }
+        
+        @media print {
+            body {
+                margin: 0;
+                padding: 0;
+            }
+            
+            .page {
+                box-shadow: none;
+                margin: 0;
+                padding: 15mm;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="page">
+        <h1>Morning and Evening Azkaar (Roman English)</h1>
+        <div class="page-content">
+            <!-- Left Column -->
+            <div class="column column-left">
+                <h2><span class="number-circle">1</span> After Fajr Prayer</h2>
+                
+                <h3>(a) Immediately after Fajr</h3>
+                <div class="urdu-text">Without talking to anyone, recite 10 times (also recite in evening). 4th Kalima - 10 good deeds, 10 sins forgiven, 10 ranks elevated, protected from all calamities and Shaitan throughout the day</div>
+                <div class="arabic-text">
+                    Laa-ilaaha illallahu wahdahu la-shareekalahu; Lahul mulku wa-lahul h'amdu; Yuh'yee wa-Yumeetu; Wa-huwa a'la kulli shay'in qadeer.
+                </div>
+                
+                <h3>(b) After Fajr, After Maghrib - 7 times</h3>
+                <div class="benefit-text">(Mishkaath) - Protection from Fire</div>
+                <div class="arabic-text">
+                    Allahumma a'jirni minan naar
+                </div>
+                
+                <h3>(c) After Fajr Prayer - 3 times</h3>
+                <div class="benefit-text">Protection from insanity, leprosy, blindness, paralysis</div>
+                <div class="arabic-text">
+                    Subh'anallahil Azimi wabih'amdhihi wa La h'aula wala quwwata illa billah
+                </div>
+                
+                <hr class="section-divider">
+                
+                <h2><span class="number-circle">2</span> Morning & Evening - 7 times</h2>
+                <div class="benefit-text">(Tafseer Rooh-ul-Maani) - Allah will remove worldly and hereafter worries</div>
+                <div class="arabic-text">
+                    Hasbi-yallahu laa-ilaaha illa huwa aa'layhi tawak-kalthu; Wa-huwa rabbul ar'shil azeem.
+                </div>
+                
+                <hr class="section-divider">
+                
+                <h2><span class="number-circle">5</span> Morning & Evening Dhikr</h2>
+                <div class="benefit-text">Protection from Shaitan from morning till evening, evening till morning. No harm to wealth or home. (Daarmi)</div>
+                
+                <div class="arabic-text">
+                    A'uzu billahissamee'il A'leemi minashaitanirrajeem.
+                </div>
+                
+                <h3>Surah Al-Fatiha</h3>
+                <div class="arabic-text">
+                    Bismillaahir Rahmaa-nir Raheem<br>
+                    Alhamdu lillaahi rabbil aa'lameen; Ar-rahmaanir-raheem; Maaliki'yaw mid-deen; Iyyaa ka na'budu wa-lyyaa ka nasta'een; Ih'dinassiraa'tal mustaqeem; Siraatal-lazeena an'amta alai'him ghayril maghzoo bi'alai'him wa'laz dhaalleen;
+                </div>
+            </div>
+            
+            <!-- Right Column -->
+            <div class="column column-right">
+                <h2><span class="number-circle">3</span> 70,000 Angels Pray for Mercy</h2>
+                <div class="benefit-text">If one dies that day/night, receives rank of martyrdom</div>
+                
+                <div class="urdu-text">Recite this verse three times:</div>
+                <div class="arabic-text">
+                    A'uzu billahissamee'il A'leemi minashaitanirrajeem.
+                </div>
+                
+                <div class="urdu-text">Once:</div>
+                <div class="arabic-text">
+                    Huwal-laahul-lazee laaa Ilaaha illaa Huwa 'Aalimul Ghaibi wash-shahaadathi Huwar Rahmaanur-Raheem; Huwallaahul-lazee laaa Ilaaha illaa Huwal Malikul Quddoosus Salaamul Muminul Muhaiminul Azeezul JabbaarulMutakabbiru; Subhaanal laahi 'Ammaa yushrikoon Huwal Laahul Khaaliqul Baari 'ul Musawwiru lahul Asmaaa'ul Husnaa; yusabbihu lahoo maa fis samaawaati wal ardhi wa Huwal 'Azeezul Hakeeem
+                </div>
+                
+                <h2><span class="number-circle">4</span> Surah Al-Zalzalah</h2>
+                <div class="benefit-text">Reward equal to reading half the Qur'an (Mishkaath)</div>
+                <div class="arabic-text">
+                    Bismillaahir Rahmaa-nir Raheem.<br>
+                    Izaa zul zilatil ardhu zil zaalaha; Wa akh rajatil ardhu asqaalaha; Wa qaalal insaanu ma laha; Yawmaa izin tuh'addisu akhbaaraha; Bi-anna rabbaka awhaa laha; Yawma izin-yasdurunnaasu ash tatal liyuraw a'maalahum; Famaiy ya'mal misqala zarratin khai raiy-yarah; Wa maiy-y'amal misqala zarratin sharraiy-yarah
+                </div>
+                
+                <div class="arabic-text">
+                    Allahu wali-yyul lazina aa'manu yukh'rijuhum minazzulumaati ilan noor; Wal-lazi na-kafaroo awliyaa uo'humut taa'ghootu yukh-rijoo'nahum minan noori ilazzulumaat; Ulaa-ika as'haabun naari hum fee-haa khaa'lidoon.
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Page 2 -->
+    <div class="page">
+        <div class="page-content">
+            <!-- Left Column -->
+            <div class="column column-left">
+                <h3>Ayatul Kursi</h3>
+                <div class="arabic-text">
+                    Bismillaahir Rahmaa-nir Raheem.<br>
+                    Alif Laam Meem; Za'likal kitaabu-laa raiba feehi hudal-lil muttaqeen; Al-lazina yu'minoona bil'ghaibi wa-yu'qeemoonas salata wa mim'maa razaqna'hum yun'fiqoon; Wal-lazina yu'minoona bimaa un'zila ilaika wama un'zila min qablika wa-bil aa'khirati hum yu'qinoon; Ulaa-ika a'laa hudammir rabbihim; wa-ulaa-ika humul muf'lihoon;
+                </div>
+                
+                <div class="arabic-text">
+                    Allahu la-ilaaha illaa'hu wal haiyul qai-yoom; Laa-ta'khuzuhoo sinatu'oo walaa na'uum; Lahoo ma-fis'samaawaati wama fil ardh; Man zal'lazi yashfa'u in'dahoo illa bi-iz'nihi; Ya-lamu ma-baina ai'deehim wama khal-fahum; Wa-laa yuhee'toona be-shai-im-min il-mihee illa be'maa shaa a; Wasi'aa kursi'yuhus samaa-waati wal ardh; Wa-laa yaoo'duhoo hif'zuhumaa wa-huwal ali'yyul azeem; Laa ik'raaha fid-deeni; Qad-tabay'yanar rushdu minal ghayy; Famai yakfur bit-taa'ghooti wa-yu'mim billaahi faqadis tamsaka bil'urwatil wusqaa lan-fisaama lahaa; Walla'hu samee'un aleem;
+                </div>
+                
+                <hr class="section-divider">
+                
+                <h2><span class="number-circle">6</span> Surah Al-Kafiroon</h2>
+                <div class="benefit-text">Equal to one-fourth of Qur'an (Mishkaath). Disassociation from Shirk.</div>
+                
+                <h2><span class="number-circle">7</span> Surah An-Nasr</h2>
+                <div class="benefit-text">Morning and Evening - Equal to one-fourth of Qur'an (Tirmizi)</div>
+                
+                <h2><span class="number-circle">8</span> Surah Ikhlaas, Falaq, Naas</h2>
+                <div class="benefit-text">Morning & Evening 3 times. Sufficient against every harmful thing and evil (Mishkaath)</div>
+            </div>
+            
+            <!-- Right Column -->
+            <div class="column column-right">
+                <div class="arabic-text">
+                    Bismillaahir Rahmaa-nir Raheem:<br>
+                    Lillaahi maa fis-samaawaati wama fil ardh; Wa in'tubdoo ma-fee an'fusikum aw tukh foohu yu'haa-sibkum bihil-laa; Fa-yagh'firuli maiya-shaa'u wa-yu'azzibu maiya-shaa; Wallahu ala kulee shay'in qadeer.
+                </div>
+                
+                <div class="arabic-text">
+                    Aa-manar rasulu bimaa un'zila ilaihi mir-Rabbihee wal-mu'minoon; Kul'lun aa-mana billahi wamalaa-ikathi'hee wakutu-bhi'hee wa-rusu'lihee; Laa-nufar'riqu baina ahadimmir-rusulih; Wa-qaloo sami'naa wa-aata'naa; Ghufra-naka rabbana wa-ilaikal maseer.
+                </div>
+                
+                <div class="arabic-text">
+                    Laa yukalliful-laahu nafsan illaa wus'ahaa; Lahaa ma-kasabat wa-aa'laihaa mak-tasabat; Rabbana laa tu'aakhid-naa in'naa-seenaa aw-akhtaa'naa; Rabbana wa-laa tahmil-alainaa isran kamaa hamal'tahoo alal-ladhina min qablinaa; Rabbana wala tu'ham-milna ma-laa-taa qata-lanaa bih; Wa'fu ann'aa; waghfir-lana; war-ham'naa; Antha mawlana fansur-na alal qaw-mil kaa'fireen
+                </div>
+                
+                <hr class="section-divider">
+                
+                <h2><span class="number-circle">13</span> Difficult for Angels to Write Reward</h2>
+                <div class="arabic-text">
+                    Ya Rabbi lakal h'amdu kama yam-baghi li jalali waj-hika wa-azeemi sultanik
+                </div>
+                
+                <h2><span class="number-circle">14</span> Allah's Pleasure</h2>
+                <div class="benefit-text">Recite morning & evening. Allah will please him on Day of Judgment</div>
+                <div class="arabic-text">
+                    Radheetu billahi Rabba; Wa'bil-islami dee'naa; Wa-bi Muhammadin nabiy'ya
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Page 3 -->
+    <div class="page">
+        <div class="page-content">
+            <!-- Left Column -->
+            <div class="column column-left">
+                <h2><span class="number-circle">9</span> Protection Dua</h2>
+                <div class="benefit-text">Morning & Evening 3 times. Nothing will harm. No sudden calamity. (Mishkaath)</div>
+                <div class="arabic-text">
+                    Bismillah hil'lazi la yadhur'oo ma'as-mihi shai'un fil-ardi wa-laa fis'samaai; Wa-hu'waas samee'ul alim.
+                </div>
+                
+                <h2><span class="number-circle">10</span> Protection from Poison</h2>
+                <div class="benefit-text">Morning & Evening 3 times. No harm from poisonous creature's bite. (Tirmizi)</div>
+                <div class="arabic-text">
+                    A'oozu-bi kalimaa-tillaah-hit taam'maati min sharri ma-khalaq.
+                </div>
+                
+                <h2><span class="number-circle">11</span> Morning & Evening Dua</h2>
+                <div class="benefit-text">(Mishkaath)</div>
+                <div class="arabic-text">
+                    Allahumma bika asbahna; Wa'bika amsaina; Wa'bika nahya; Wa'bika namootu; Wa'ilay'kal Maseer.
+                </div>
+                
+                <h2><span class="number-circle">12</span> Gratitude Dua</h2>
+                <div class="benefit-text">Gratitude for that day/night fulfilled</div>
+                <div class="arabic-text">
+                    Allahumma ((Morning) ma-asbaha) ((Evening) ma-amsaa) bee min nia'matin; Aw'bi a'hadim min-khal'qik; Fa-minka wah-daka laa-sharee kalaka; Fa-lakal hamdu wa-lakash shuk'r.
+                </div>
+                
+                <h2><span class="number-circle">18</span> Relief from Debts & Worries</h2>
+                <div class="benefit-text">Morning & Evening. Debts and worries will be removed (Mishkaath)</div>
+                <div class="arabic-text">
+                    Allahumma Innee a'auzubika minal hammi walhuzni; Wa a'auzubika minal ajzi wal kasli; wa a'auzu bika minal jubni wal bukhli; wa a'auzu bika min galabatid dayni wa khahrir rijaal;
+                </div>
+            </div>
+            
+            <!-- Right Column -->
+            <div class="column column-right">
+                <h2><span class="number-circle">15</span> Heavier than Hours of Dhikr</h2>
+                <div class="benefit-text">(Mishkaath)</div>
+                <div class="arabic-text">
+                    SubhanAllahi wa-bihamdihi; a'dada khal'qihi; Wa-rida nafsihi, Wa-zinata a'rshihi, Wa-midada kalimatihi.
+                </div>
+                
+                <h2><span class="number-circle">16</span> Sayyid-ul-Istighfar</h2>
+                <div class="benefit-text">Morning & Evening. If dies that day/night, will enter Paradise (Bukhari)</div>
+                <div class="arabic-text">
+                    Allahumma antha rabbii laa-ilaaha illa antha Khalaq-tanee; Wa-ana ab'duk; Wa-ana ala ah'dika wa-wa-dika mas'tataath; A'uzu-bika min sharri ma-sanathu; Aboo'u laka bini'matika aalai'yaa; Wa-aboo'u bi-zam'bee; Fagh'fir lee; Fa-inna'hu la-yagh'firuzzunooba illa anth.
+                </div>
+                
+                <h2><span class="number-circle">17</span> Sins Forgiven Even if Like Ocean Foam</h2>
+                <div class="benefit-text">(Targheeb wa Tarheeb)</div>
+                <div class="arabic-text">
+                    Astaghfir ullah-allazi la ilaha illa Huwal-Haiyul-Qayyumu, wa athubu ilaihi
+                </div>
+                
+                <h2><span class="number-circle">21</span> Dua Khatm-e-Majlis</h2>
+                <div class="arabic-text">
+                    SubhanAllahi wa-bihamdihi, Subhanaka Allahumma wa bihamdika, Ashhadu allaa ilaha illa Antha, astaghfiruka wa athubu ilaih
+                </div>
+                
+                <h2><span class="number-circle">22</span> Surah Yasin</h2>
+                <div class="urdu-text">After Fajr</div>
+                
+                <h2><span class="number-circle">23</span> Surah Waqiah</h2>
+                <div class="urdu-text">After Maghrib</div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Page 4 -->
+    <div class="page">
+        <div class="page-content">
+            <!-- Left Column -->
+            <div class="column column-left">
+                <h2><span class="number-circle">19</span> Dua for Well-being</h2>
+                <div class="benefit-text">Morning & Evening</div>
+                <div class="arabic-text">
+                    Allaahumma 'innee 'as'alukal-'afwa wal'aafiyatha fid-dunyaa wal'aakhiratih; Allaahumma 'innee 'as'alukal-'afwa wal'aafiyatha fee deenee wa dunyaaya wa 'ahlee, wa maalee; Allaahum-mastur 'awraatee, wa 'aamin raw'aatee; Allaahum-mahfaznee min bayni yadayya, wa min khalfee, wa 'an yameenee, wa 'an shimaalee, wa min fawqee, wa 'a'oozu bi'azamatika 'an 'ughtaala min tahtee
+                </div>
+                
+                <h2><span class="number-circle">20</span> Dua for Health</h2>
+                <div class="benefit-text">Morning & Evening 3 times</div>
+                <div class="arabic-text">
+                    Allahumma aa'fi-nee fee badanee; Allahumma aa'fi-nee fee sam'ee; Allahumma aa'fi-nee fee basaree; Allahumma innee a'uzu-bika minal-kufri wal-faqr; Allahumma innee a'uzu-bika min azaa-bil qabr; Laa-ilaaha illa anth.
+                </div>
+            </div>
+            
+            <!-- Right Column -->
+            <div class="column column-right">
+                <h1 style="font-size: 14pt; margin-top: 20pt;"><span class="underline">Wazaif Before Sleeping</span></h1>
+                
+                <h2><span class="number-circle">1</span> Three Times</h2>
+                <div class="urdu-text">Mu'awazatain and Surah Ikhlas - recite, blow on hands and wipe over body</div>
+                <div class="benefit-text">(Bukhari: 5017)</div>
+                
+                <h2><span class="number-circle">2</span> Ayatul Kursi</h2>
+                <div class="benefit-text">(Bukhari: 2311)</div>
+                
+                <h2><span class="number-circle">3</span> Last Three Verses of Surah Baqarah</h2>
+                <div class="benefit-text">(Bukhari: 5009, Muslim: 808)</div>
+                
+                <h2><span class="number-circle">4</span> Surah Kafiroon Once</h2>
+                <div class="benefit-text">(Abu Dawood: 5055)</div>
+                
+                <h2><span class="number-circle">5</span></h2>
+                <div class="arabic-text">
+                    Bismika Allahumma amuthu wa ahya
+                </div>
+                
+                <h2><span class="number-circle">6</span></h2>
+                <div class="arabic-text">
+                    33 times SubhanAllah<br>
+                    33 times Alhamdulillah<br>
+                    34 times Allahu Akbar
+                </div>
+                
+                <h2><span class="number-circle">7</span></h2>
+                <div class="arabic-text">
+                    Allahumma Qini Azabaka yawma tab'asu ibadaka
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
